@@ -4,8 +4,8 @@ public class Sum2 {
       int sum = 0;
       for (String i : args){
           String trimmed = i.trim();
-          String[] splited = trimmed.split("\\s+");
-          for (String j : splited){
+          String[] splitted = trimmed.split("\\s+");
+          for (String j : splitted){
              int parsed = Integer.parseInt(j);
              sum = sum + parsed;
           }
